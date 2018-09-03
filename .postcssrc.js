@@ -1,5 +1,11 @@
 module.exports = {
   plugins: {
-    autoprefixer: {}
+    "postcss-salad": {
+      features: {
+        "bem": {
+          "defaultNamespace": "tv"
+        }
+      }
+    }
   }
 }
