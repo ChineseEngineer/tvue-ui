@@ -1,5 +1,7 @@
 <template>
-  <div class="tv-cell">....</div>
+  <div class="tv-cell">
+    <slot></slot>
+  </div>
 </template>
 
 <script>
