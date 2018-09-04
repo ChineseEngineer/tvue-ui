@@ -23,5 +23,7 @@ export default new Vuex.Store({
     home
   },
   strict: debug,
-  plugins: [createPersistedState()]
+  plugins: [createPersistedState(
+    { storage: window.sessionStorage }
+  )]
 })
