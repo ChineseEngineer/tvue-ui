@@ -6,6 +6,10 @@ module.exports = {
           "defaultNamespace": "tv"
         }
       }
+    },
+    "postcss-px2rem": {
+      remUnit: 37.5,
+      remVersion: false
     }
   }
 }

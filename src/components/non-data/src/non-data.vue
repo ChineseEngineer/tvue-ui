@@ -65,7 +65,7 @@ export default {
 
       @descendent title {
         font-size: 16px;
-        color: $color-blue;
+        color: val(--color-red);
         padding: 0;
         margin: 0 0 10px 0;
       }
@@ -75,8 +75,10 @@ export default {
         word-wrap:break-word;
         word-break:break-all;
         display: -webkit-box;
+        /*! autoprefixer: off */
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        /* autoprefixer: on */
+        -webkit-line-clamp: 3;
         overflow: hidden;
         text-overflow: ellipsis;
       }

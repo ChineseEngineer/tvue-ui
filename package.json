@@ -26,6 +26,8 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "chai": "^4.1.2",
     "lint-staged": "^7.2.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-px2rem": "^0.3.0",
     "postcss-salad": "^2.0.1",
     "vue-template-compiler": "^2.5.17"
   },
